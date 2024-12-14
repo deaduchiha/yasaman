@@ -6,4 +6,8 @@ function sub(x, y) {
   console.log(x - y);
 }
 
-export { add, sub };
+function greeting() {
+  console.log("Hello World!");
+}
+
+export { add, sub, greeting };
